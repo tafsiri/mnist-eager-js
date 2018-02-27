@@ -11,8 +11,8 @@
     "parcel-bundler": "^1.6.2"
   },
   "scripts": {
-    "start": "NODE_ENV=development parcel index.html ",
-    "build": "NODE_ENV=production parcel build index.html --no-hmr --no-minify --public-url /"
+    "start": "NODE_ENV=development parcel --no-hmr index.html ",
+    "build": "NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
